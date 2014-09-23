@@ -1,0 +1,53 @@
+html {
+  height: 100%;
+	font-family: 'monospace';
+	font-size:30px;
+}
+
+body {
+  height: 100%;
+}
+
+.texte{
+	line-height: 160%;
+	margin:70px 70px 70px 90px;
+}
+
+span{
+	color:red;
+}
+
+/* You can modify the following part for transition speed and text style */
+
+.fly{
+	color:red;
+	position:absolute;
+  transition: all 2s ease-in-out;
+    -webkit-transition: all 3s ease-in-out; /** Chrome & Safari **/
+    -moz-transition: all 3s ease-in-out; /** Firefox **/
+    -o-transition: all 3s ease-in-out; /** Opera **/
+		display:none;
+}
+
+.high{
+	margin-top:-1000px;
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
